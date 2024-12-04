@@ -3637,6 +3637,12 @@
 		(uuid "ba498638-a7d7-48ae-aad3-0d2575cd460e")
 	)
 	(junction
+		(at 39.37 62.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c01c527f-b27c-4faa-8c75-91e7d1d49959")
+	)
+	(junction
 		(at 147.32 109.22)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3683,10 +3689,6 @@
 	(no_connect
 		(at 80.01 80.01)
 		(uuid "1252e099-1482-4a10-a2a1-4cad2c33650b")
-	)
-	(no_connect
-		(at 41.91 115.57)
-		(uuid "133c38a0-bcb8-402b-8f6a-40a5c44a7b9c")
 	)
 	(no_connect
 		(at 80.01 64.77)
@@ -4059,6 +4061,16 @@
 			(type default)
 		)
 		(uuid "2d82d89a-395e-41d8-a55d-d0bfae0caf9c")
+	)
+	(wire
+		(pts
+			(xy 41.91 115.57) (xy 39.37 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "30bf1b52-cdd3-4e4d-b822-6f38cdd649e2")
 	)
 	(wire
 		(pts
@@ -4582,6 +4594,16 @@
 	)
 	(wire
 		(pts
+			(xy 39.37 62.23) (xy 39.37 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "93b8ae9b-410e-421c-a2a0-240e911c82ff")
+	)
+	(wire
+		(pts
 			(xy 114.3 93.98) (xy 124.46 93.98)
 		)
 		(stroke
@@ -5100,7 +5122,7 @@
 		)
 		(uuid "ff71d715-6833-4c11-9c6f-b35e04098c95")
 	)
-	(text "Need to confirm the footprint of the socket - the one included in production files \ndoes not have a model but an equivalent socket on digikey did "
+	(text "Need to confirm the footprint of the socket - the one included in production files \ndoes not have a model but an equivalent socket on digikey did so i used that downloaded model"
 		(exclude_from_sim no)
 		(at 330.454 35.814 0)
 		(effects
@@ -5109,6 +5131,16 @@
 			)
 		)
 		(uuid "93a978d1-8c4c-4bd8-81ca-075bc9f93c3a")
+	)
+	(text "cw308 schematic includes note bubbles stating 'morespace' i left those out but can include if preferred"
+		(exclude_from_sim no)
+		(at 320.04 110.236 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "ea0119ef-ba0c-4cd8-9add-2c7d7ae28dd0")
 	)
 	(label "RST"
 		(at 166.37 101.6 0)
