@@ -7746,8 +7746,8 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "VREF"
-		(at 148.2 81.35 90)
+	(gr_text "+3V3"
+		(at 148.25 81.8 90)
 		(layer "F.SilkS")
 		(uuid "b4e2985d-47a1-4249-94e8-0ecae9cd8d72")
 		(effects
